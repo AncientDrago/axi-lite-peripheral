@@ -70,20 +70,20 @@ axi-lite-peripheral/
 ---
 
 ## 📈 Verification Summary  
-Verified read/write functionality across multiple addresses  
-Ensured AXI protocol compliance via handshake timing  
-Achieved 100% functional coverage for core features  
-Confirmed setup/hold correctness through waveform inspection  
+- Verified read/write functionality across multiple addresses  
+- Ensured AXI protocol compliance via handshake timing  
+- Achieved 100% functional coverage for core features  
+- Confirmed setup/hold correctness through waveform inspection  
 
 ---
 
 ## 🚀 Why This Project Matters  
 - This project demonstrates:  
--- Strong understanding of SoC bus protocols  
--- Hands-on experience with RTL design and verification  
--- Comfort working in a Linux-based simulation environment  
--- Industry-relevant workflow aligned with ASIC/FPGA development  
--- It is directly applicable to VLSI, verification, and CST internship roles.  
+ - Strong understanding of SoC bus protocols  
+ - Hands-on experience with RTL design and verification  
+ - Comfort working in a Linux-based simulation environment  
+ - Industry-relevant workflow aligned with ASIC/FPGA development  
+ - It is directly applicable to VLSI, verification, and CST internship roles.  
 
 ---
 
