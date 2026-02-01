@@ -61,45 +61,45 @@ axi-lite-peripheral/
 ---
 
 ## 🔍 What to Observe in GTKWave
-### AXI Lite handshake signals (VALID, READY)
-### Correct address decoding during read/write
-### Register updates on write transactions
-### Stable read data during read cycles
-### Clean reset behavior and synchronous operation
+AXI Lite handshake signals (VALID, READY)
+Correct address decoding during read/write
+Register updates on write transactions
+Stable read data during read cycles
+Clean reset behavior and synchronous operation
 
 ---
 
 ## 📈 Verification Summary
-### Verified read/write functionality across multiple addresses
-### Ensured AXI protocol compliance via handshake timing
-### Achieved 100% functional coverage for core features
-### Confirmed setup/hold correctness through waveform inspection
+Verified read/write functionality across multiple addresses
+Ensured AXI protocol compliance via handshake timing
+Achieved 100% functional coverage for core features
+Confirmed setup/hold correctness through waveform inspection
 
 ---
 
 ## 🚀 Why This Project Matters
-### This project demonstrates:
-### Strong understanding of SoC bus protocols
-### Hands-on experience with RTL design and verification
-### Comfort working in a Linux-based simulation environment
-### Industry-relevant workflow aligned with ASIC/FPGA development
-### It is directly applicable to VLSI, verification, and CST internship roles.
+This project demonstrates:
+Strong understanding of SoC bus protocols
+Hands-on experience with RTL design and verification
+Comfort working in a Linux-based simulation environment
+Industry-relevant workflow aligned with ASIC/FPGA development
+It is directly applicable to VLSI, verification, and CST internship roles.
 
 ---
 
 ## 🔮 Future Enhancements
-### Add AXI error responses (DECERR/SLVERR)
-### Extend to multiple register banks
-### Integrate assertion-based verification (SVA)
-### Synthesize and test on FPGA
+Add AXI error responses (DECERR/SLVERR)
+Extend to multiple register banks
+Integrate assertion-based verification (SVA)
+Synthesize and test on FPGA
 
 ---
 
-👤 Author
+## 👤 Author
 
-## Abishek
-### Electronics & Communication Engineering
-### GitHub: https://github.com/AncientDrago
+### Abishek
+Electronics & Communication Engineering
+GitHub: https://github.com/AncientDrago
 
 --- 
 
