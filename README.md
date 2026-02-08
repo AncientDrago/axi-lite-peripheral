@@ -1,6 +1,6 @@
 # AXI Lite Peripheral Design and Verification
 
-## 📌 Overview
+## Overview
 
 This project implements and verifies a custom **AXI4-Lite slave peripheral** using **Verilog**, focusing on industry-aligned RTL design and functional verification practices. The design supports register-based read/write transactions and is suitable for **SoC integration, ASIC/FPGA prototyping**, and learning real-world bus protocols.
 
@@ -9,7 +9,7 @@ The project is intentionally structured to reflect **professional VLSI workflows
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Design a synthesizable AXI4-Lite slave peripheral in Verilog
 - Implement address decoding, read/write channels, and reset logic
@@ -18,7 +18,7 @@ The project is intentionally structured to reflect **professional VLSI workflows
 
 ---
 
-## 🧠 Technical Highlights
+## Technical Highlights
 
 - **Protocol:** AXI4-Lite (single outstanding transaction)
 - **RTL Design:** Address decoding, handshake logic, synchronous reset
@@ -29,7 +29,7 @@ The project is intentionally structured to reflect **professional VLSI workflows
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 axi-lite-peripheral/
@@ -45,7 +45,7 @@ axi-lite-peripheral/
 ```
 ---
 
-## ⚙️ How to Run the Simulation
+## How to Run the Simulation
 ### 1️⃣ Compile RTL and Testbench
 #### iverilog -o sim rtl/axi_lite_slave.v tb/tb_axi_lite.v
 
@@ -60,7 +60,7 @@ axi-lite-peripheral/
 
 ---
 
-## 🔍 What to Observe in GTKWave  
+## What to Observe in GTKWave  
 - AXI Lite handshake signals (VALID, READY)  
 - Correct address decoding during read/write  
 - Register updates on write transactions  
@@ -69,7 +69,7 @@ axi-lite-peripheral/
 
 ---
 
-## 📈 Verification Summary  
+## Verification Summary  
 - Verified read/write functionality across multiple addresses  
 - Ensured AXI protocol compliance via handshake timing  
 - Achieved 100% functional coverage for core features  
@@ -77,7 +77,7 @@ axi-lite-peripheral/
 
 ---
 
-## 🚀 Why This Project Matters  
+## Why This Project Matters  
 - This project demonstrates:  
  - Strong understanding of SoC bus protocols  
  - Hands-on experience with RTL design and verification  
@@ -87,7 +87,7 @@ axi-lite-peripheral/
 
 ---
 
-## 🔮 Future Enhancements  
+## Future Enhancements  
 - Add AXI error responses (DECERR/SLVERR)  
 - Extend to multiple register banks  
 - Integrate assertion-based verification (SVA)  
@@ -95,7 +95,7 @@ axi-lite-peripheral/
 
 ---
 
-## 👤 Author
+## Author
 
 ### Abishek  
 - Electronics & Communication Engineering  
@@ -103,13 +103,5 @@ axi-lite-peripheral/
 
 --- 
 
-## ⭐ If you find this project useful, feel free to star the repository!
-
-You’re honestly **way ahead for a CST intern profile** now — solid project + clean repo + professional README.  
-If you want next, we can:
-- add **resume-ready one-liner for GitHub**
-- add **Cadence-aligned keywords**
-- prep a **“How I verified AXI” explanation for interviews**
-
-Just say the word 🔥
+## If you find this project useful, feel free to star the repository!
 
